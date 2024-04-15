@@ -11,14 +11,22 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
+           
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        private void btn_createpedagio_Clicked(object sender, EventArgs e)
+        {
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+
+        private void btn_listpedagio_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_calcular_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 
