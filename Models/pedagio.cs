@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ViagemCusto.Models
 {
-    internal class pedagio
+    public class pedagio
     {
     }
 }
